@@ -64,9 +64,9 @@ h2 {
 }
 
 .link-block:hover {
-  background: #FC00F9;
+  background: #28FF35;
   color: #fff;
-  border-color: #FC00F9;
+  border-color: #28FF35;
   transform: translateY(-1px);
 }
 
@@ -88,7 +88,7 @@ h2 {
 }
 
 .social-link:hover {
-  color: #FC00F9;
+  color: #28FF35;
 }
 
 /* Responsive */
