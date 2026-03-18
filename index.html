@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="container">
+  <h1 class="site-title">{{ site.title }}</h1>
+  <p class="tagline">{{ site.description }}</p>
+
+  <section class="links">
+    <h2>Support</h2>
+    {% for link in site.links %}
+    <a href="{{ link.url }}" class="link-block" target="_blank" rel="noopener">
+      {{ link.title }}
+    </a>
+    {% endfor %}
+  </section>
+
+  <section class="socials">
+    {% for social in site.socials %}
+    <a href="{{ social.url }}" class="social-link" target="_blank" rel="noopener">
+      {{ social.title }}
+    </a>
+    {% endfor %}
+  </section>
+</div>

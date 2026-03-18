@@ -1,0 +1,26 @@
+title: "Freelance Podcasting"
+description: "by Lisa Lorraine Carson"
+url: "https://freelancepodcasting.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# Links
+links:
+  - title: "Patreon"
+    url: "https://www.patreon.com/c/freelancepodcasting"
+  - title: "Buy Me a Coffee"
+    url: "https://buymeacoffee.com/wereallycould"
+
+# Social links
+socials:
+  - title: "See more @ llcprojects.com"
+    url: "https://llcprojects.com"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
