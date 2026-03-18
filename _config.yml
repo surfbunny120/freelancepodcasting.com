@@ -1,7 +1,7 @@
 title: "Lisa Lorraine Carson"
 description: "...is a freelance podcaster. If you like her work, you can support it here:"
 url: "https://freelancepodcasting.com"
-baseurl: "/freelancepodcasting.com"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
