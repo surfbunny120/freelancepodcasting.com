@@ -7,7 +7,6 @@ layout: default
   <p class="tagline">{{ site.description }}</p>
 
   <section class="links">
-    <h2>Support</h2>
     {% for link in site.links %}
     <a href="{{ link.url }}" class="link-block" target="_blank" rel="noopener">
       {{ link.title }}
@@ -16,10 +15,6 @@ layout: default
   </section>
 
   <section class="socials">
-    {% for social in site.socials %}
-    <a href="{{ social.url }}" class="social-link" target="_blank" rel="noopener">
-      {{ social.title }}
-    </a>
-    {% endfor %}
+    <p class="footer-text">See more @ <a href="https://llcprojects.com" class="social-link" target="_blank" rel="noopener">llcprojects.com</a></p>
   </section>
 </div>

@@ -75,12 +75,16 @@ h2 {
   margin-bottom: 40px;
 }
 
+.footer-text {
+  font-size: 1.05rem;
+  color: #111;
+}
+
 .social-link {
   color: #071EF6;
   text-decoration: underline;
   font-size: 1.05rem;
-  display: block;
-  margin-top: 4px;
+  display: inline;
 }
 
 .social-link:hover {
